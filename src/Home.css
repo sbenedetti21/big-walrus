@@ -16,6 +16,7 @@ h1, h2, h3, h4, p, div, a {
 .common-container {
   max-width: 1200px;
   margin-inline: auto;
+  flex-direction: column;
 }
 
 .flex {
@@ -68,4 +69,44 @@ h1, h2, h3, h4, p, div, a {
 
 #banner-container img {
   width: 100%;
+}
+
+/*ENTER BUTTON*/
+
+#enter-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-self: end;
+
+  width: 300px;
+  height: 210px;
+  background: #0E0D0D;
+  color: #F1F1F1;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+
+  margin-top: -210px;
+  padding: 0px 10px 0px 30px;
+}
+
+#enter-bar button {
+  background: #FF562E;
+  border: none;
+  border-radius: 5px;
+  padding-block: 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+#enter-bar button:hover {
+  background: #F1F1F1;
+  color: #FF562E;
+  transition: background 150ms ease-in;
+}
+
+#enter-bar button svg {
+  margin-bottom: -5px;
 }
