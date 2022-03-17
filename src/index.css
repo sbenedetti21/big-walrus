@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+footer {
+  justify-content: space-between !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer-buttons {
+  margin-top: 10px;
+  justify-content: right !important;
+  gap: 10px;
+}
+
+footer #rights {
+  justify-content: right !important;
+  text-align: right;
+}
+
+footer #sub {
+  max-width: 50vw;
+}
+
+footer p {
+  font-size: 12px;
+}

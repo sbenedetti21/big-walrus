@@ -1,5 +1,6 @@
+import Footer from './Footer';
 import './Home.css';
-import * as Icons from '@material-ui/icons';
+import NavButtons from "./NavButtons";
 
 function Home() {
   return (
@@ -14,13 +15,12 @@ function Home() {
         </div>
       </nav>
       <div className='nav-buttons flex'>
-        <a href='https://instagram.com' target='_blank' rel="noreferrer" className='hover'><Icons.Instagram/></a>
-        <a href='https://twitter.com' target='_blank' rel="noreferrer" className='hover'><Icons.Twitter/></a>
-        <a href='https://solsea.io' target='_blank' rel="noreferrer" className='hover'><Icons.ShoppingCart/></a>
+        <NavButtons />
       </div>
       <div id='banner-container'>
         <img src={require('./assets/WalrusBar-home.jpg')}/>
       </div>
+      <Footer />
     </div>
   );
 }
