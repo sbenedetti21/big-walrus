@@ -4,7 +4,7 @@ body {
   background: #0E0D0D;
 }
 
-h1, h2, h3, h4, p, div {
+h1, h2, h3, h4, p, div, a {
   color: #F1F1F1;
 }
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4, p, div {
   justify-content: center;
 }
 
-/* TITLE AND LOGO */
+/* TITLE, LOGO AND BUTTONS */
 
 #home-logo {
   height: 90px;
@@ -45,4 +45,21 @@ h1, h2, h3, h4, p, div {
 #walrus {
   margin-top: -10px;
   font-size: 60px;
+}
+
+.nav-buttons {
+  justify-content: right;
+  margin-top: -20px;
+  gap: 5px;
+}
+
+/* BANNER */
+
+#banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+#banner-container img {
+  width: 100%;
 }
