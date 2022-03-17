@@ -8,6 +8,10 @@ h1, h2, h3, h4, p, div, a {
   color: #F1F1F1;
 }
 
+.hover:hover {
+  color: #FF562E;
+}
+
 .common-container {
   max-width: 1200px;
   margin-inline: auto;
