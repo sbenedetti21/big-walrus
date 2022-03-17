@@ -10,6 +10,7 @@ h1, h2, h3, h4, p, div, a {
 
 .hover:hover {
   color: #FF562E;
+  transition: color 400ms ease-out;
 }
 
 .common-container {
