@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700&display=swap');
+
+body {
+  background: #0E0D0D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, p, div {
+  color: #F1F1F1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.common-container {
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* TITLE AND LOGO */
+
+#home-logo {
+  height: 90px;
+  aspect-ratio: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-title {
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.home-title h1 {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#thebig {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+#walrus {
+  margin-top: -10px;
+  font-size: 60px;
 }
