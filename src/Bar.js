@@ -3,11 +3,17 @@ import './index.css';
 import './Bar.css';
 import NavButtons from "./NavButtons";
 import {NavLink} from "react-router-dom";
+import {motion} from "framer-motion";
 
 function Bar () {
 
   return(
-      <div className='common-container flex'>
+      <motion.div
+          initial={{opacity: 0, y: "-2%"}}
+          animate={{opacity: 1, y: 0}}
+          exit={{opacity: 0, y: 0}}
+
+          className='common-container flex'>
         <nav className='flex bar-nav'>
           <NavLink to={'/'} className='flex' id='logo-nav'>
             <img src={require('./assets/LogoBlanco.png')} alt='logo'/>
@@ -30,7 +36,7 @@ function Bar () {
         <div className='banner-container'>
           <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
         </div>
-      </div>
+      </motion.div>
   )
 }
 

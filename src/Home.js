@@ -4,11 +4,17 @@ import './index.css'
 import NavButtons from "./NavButtons";
 import * as Icons from "@material-ui/icons";
 import {NavLink} from "react-router-dom";
+import {motion} from "framer-motion";
 
 function Home() {
 
   return (
-    <div className="common-container flex">
+    <motion.div
+        initial={{opacity: 0, y: "-2%"}}
+        animate={{opacity: 1, y: 0}}
+        exit={{opacity: 0, y: 0}}
+
+        className="common-container flex">
       <nav id='home-nav' className='flex'>
         <div className='flex'>
           <img src={require('./assets/LogoBlanco.png')} alt='logo' id='home-logo'/>
@@ -29,7 +35,7 @@ function Home() {
         <NavLink id='enter' to={'/bar'}>ENTER <Icons.ArrowForward /></NavLink>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   );
 }
 
