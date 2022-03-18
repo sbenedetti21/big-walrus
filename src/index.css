@@ -12,12 +12,32 @@ code {
     monospace;
 }
 
-footer {
-  justify-content: space-between !important;
+body {
+  background: #0E0D0D;
+}
+
+h1, h2, h3, h4, p, div, a {
+  color: #F1F1F1;
+}
+
+.hover:hover {
+  color: #FF562E;
+  transition: color 250ms ease-out;
+}
+
+.common-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  flex-direction: column;
 }
 
 .flex {
   display: flex;
+  justify-content: center;
+}
+
+footer {
+  justify-content: space-between !important;
 }
 
 .footer-buttons {

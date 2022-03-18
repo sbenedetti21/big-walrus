@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+/* NAV BAR */
+
+.bar-nav {
+    justify-content: space-between !important;
+    padding-block: 20px;
+}
+
+#logo-nav img {
+    height: 45px;
+}
+#logo-nav div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#logo-nav h2 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#logo-nav #logo-big {
+    font-size: 10px;
+}
+
+.bar-nav ul {
+    list-style: none;
+    width: 50vw;
+    font-family: 'Inter', sans-serif;
+
+    justify-content: space-between !important;
+}
+.bar-nav ul a {
+    text-decoration: none;
+}
+.bar-nav #home-a {
+    color: #FF562E;
+}
+
+.bar-nav .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+}
+.banner-container img {
+    width: 100%;
+}

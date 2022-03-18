@@ -1,5 +1,6 @@
 import Footer from './Footer';
 import './Home.css';
+import './index.css'
 import NavButtons from "./NavButtons";
 import * as Icons from "@material-ui/icons";
 
@@ -20,11 +21,11 @@ function Home() {
           </div>
         </div>
       </nav>
-      <div className='nav-buttons flex'>
+      <div className='buttons flex'>
         <NavButtons />
       </div>
       <div id='banner-container'>
-        <img src={require('./assets/WalrusBar-home.jpg')}/>
+        <img src={require('./assets/WalrusBar-home.jpg')} alt='banner'/>
       </div>
       <div id='enter-bar'>
         <h1>WELCOME TO THE BIG WALRUS</h1>
