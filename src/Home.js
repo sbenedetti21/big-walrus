@@ -3,12 +3,9 @@ import './Home.css';
 import './index.css'
 import NavButtons from "./NavButtons";
 import * as Icons from "@material-ui/icons";
+import {NavLink} from "react-router-dom";
 
 function Home() {
-
-  const handleClick = () => {
-    window.location.href = '/#/bar'
-  }
 
   return (
     <div className="common-container flex">
@@ -29,7 +26,7 @@ function Home() {
       </div>
       <div id='enter-bar'>
         <h1>WELCOME TO THE BIG WALRUS</h1>
-        <button id='enter' onClick={handleClick}>ENTER <Icons.ArrowForward /></button>
+        <NavLink id='enter' to={'/bar'}>ENTER <Icons.ArrowForward /></NavLink>
       </div>
       <Footer />
     </div>
