@@ -27,7 +27,7 @@
 
 .bar-nav ul {
     list-style: none;
-    width: 50vw;
+    width: 50%;
     font-family: 'Inter', sans-serif;
 
     justify-content: space-between !important;
