@@ -10,12 +10,13 @@ h1, h2, h3, h4, p, div, a {
 
 .hover:hover {
   color: #FF562E;
-  transition: color 400ms ease-out;
+  transition: color 250ms ease-out;
 }
 
 .common-container {
   max-width: 1200px;
   margin-inline: auto;
+  flex-direction: column;
 }
 
 .flex {
@@ -25,10 +26,6 @@ h1, h2, h3, h4, p, div, a {
 
 /* TITLE, LOGO AND BUTTONS */
 
-#home-logo {
-  height: 90px;
-  aspect-ratio: 1;
-}
 
 .home-title {
   flex-direction: column;
@@ -44,19 +41,70 @@ h1, h2, h3, h4, p, div, a {
 
 #thebig {
   font-size: 30px;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
+  text-decoration: none;
 }
 
 #walrus {
+  margin-right: -10%;
   margin-top: -10px;
   font-size: 60px;
+  text-decoration: none;
 }
+
+.home-title:hover #walrus{
+  color: #D65E48;
+}
+.home-title:hover #thebig{
+  color: #D65E48;
+}
+
+
 
 .nav-buttons {
   justify-content: right;
-  margin-top: -20px;
-  gap: 5px;
+  margin-top: -30px;
+  padding-bottom: 10px;
+  gap: 10px;
 }
+
+ /*----Logo de la morza imagen-- */
+
+#centrar-img{
+  margin-left: -6px;
+  margin-top: -5px;
+  margin-bottom: -2.8px;
+  display: flex;
+}
+
+ /*--------------Configuracion del voton naranja de atras----------- */
+
+.boton {
+  margin-top: 5%;
+  margin-left: -260%;
+  display: flex;
+  width: 87px;
+  height: 95.7px;
+  background: white;
+  cursor: pointer;
+  transition: .1s ease all;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+
+.boton:hover{
+  background: #D65E48;
+}
+
+.boton:hover #thebig{
+  color: #D65E48;
+}
+.boton:hover #walrus{
+  color: #D65E48;
+}
+
+
 
 /* BANNER */
 
@@ -67,4 +115,44 @@ h1, h2, h3, h4, p, div, a {
 
 #banner-container img {
   width: 100%;
+}
+
+/*ENTER BUTTON*/
+
+#enter-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-self: end;
+
+  width: 300px;
+  height: 210px;
+  background: #0E0D0D;
+  color: #F1F1F1;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+
+  margin-top: -210px;
+  padding: 0px 10px 0px 30px;
+}
+
+#enter-bar button {
+  background: #FF562E;
+  border: none;
+  border-radius: 5px;
+  padding-block: 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+#enter-bar button:hover {
+  background: #F1F1F1;
+  color: #FF562E;
+  transition: background 150ms ease-in;
+}
+
+#enter-bar button svg {
+  margin-bottom: -5px;
 }

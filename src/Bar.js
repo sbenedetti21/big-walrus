@@ -1,9 +1,15 @@
 import React from "react";
 
 function Bar () {
+  const handleClick = () => {
+    window.location.href = '/#'
+  }
   return(
       <div>
-        Inside Bar
+        <div>
+          Inside Bar
+        </div>
+        <button onClick={handleClick}>go back</button>
       </div>
   )
 }
