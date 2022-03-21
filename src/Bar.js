@@ -8,20 +8,25 @@ import {motion} from "framer-motion";
 function Bar () {
 
   return(
+    
       <motion.div
           initial={{opacity: 0, y: "-2%"}}
           animate={{opacity: 1, y: 0}}
           exit={{opacity: 0, y: 0}}
+        className='common-container flex'>
 
-          className='common-container flex'>
-        <nav className='flex bar-nav'>
-          <NavLink to={'/'} className='flex' id='logo-nav'>
-            <img src={require('./assets/LogoBlanco.png')} alt='logo'/>
-            <div>
-              <h2 id='logo-big'>THE BIG</h2>
-              <h2>WALRUS</h2>
-            </div>
-          </NavLink>
+       
+        <nav className='flex bar-nav' >
+         <a className="botonWalerus" >
+            <NavLink to={'/'} className='flex' id='logo-nav'>
+              <img src={require('./assets/Logotrasnparente.png')} alt='logo' id="centrar-img"/>
+              <div>
+                <h2 id='logo-big'>THE BIG</h2>
+                <h2 id='walerus'>WALRUS</h2>
+              </div>
+            </NavLink>
+          </a>    
+
           <ul className='flex'>
             <li><a  id='home-a' href='instagram.com'>HOME</a></li>
             <li><a href='instagram.com'>ABOUT US</a></li>
