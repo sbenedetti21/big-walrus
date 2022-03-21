@@ -17,7 +17,7 @@ function Bar () {
 
        
         <nav className='flex bar-nav' >
-         <a className="botonWalerus" >
+         <div className="botonWalrus" >
             <NavLink to={'/'} className='flex' id='logo-nav'>
               <img src={require('./assets/Logotrasnparente.png')} alt='logo' id="centrar-img"/>
               <div>
@@ -25,7 +25,7 @@ function Bar () {
                 <h2 id='walerus'>WALRUS</h2>
               </div>
             </NavLink>
-          </a>    
+          </div>
 
           <ul className='flex'>
             <li><a  id='home-a' href='instagram.com'>HOME</a></li>

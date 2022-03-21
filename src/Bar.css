@@ -27,7 +27,7 @@ a {
 }
 
 /*color del fondo */
-.botonWalerus{
+.botonWalrus{
    background: WHITE;
   display: flex;
   width: 63px;
@@ -37,14 +37,14 @@ border-radius: 100%;
 }
 
 
-.botonWalerus:hover{
+.botonWalrus:hover{
   background: #D65E48;
 }
 
-.botonWalerus:hover #logo-big{
+.botonWalrus:hover #logo-big{
   color: #D65E48;
 }
-.botonWalerus:hover  #walerus{
+.botonWalrus:hover  #walerus{
   color: #D65E48;
 }
 
