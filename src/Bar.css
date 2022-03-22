@@ -144,6 +144,8 @@ h1 {
 #first-section {
     justify-content: space-around !important;
     align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #first-section img {
     width: 33%;
@@ -170,11 +172,14 @@ h1 {
     align-items: center;
 }
 
+#second-section h1 {
+    font-size: 50px;
+}
 #second-section #roadmap {
-    height: 700px;
-    width: 1px;
-    border: 1px solid #FF562E;
-    margin: 20px;
+    width: 100%;
+}
+#second-section #roadmap img {
+    width: 100%;
 }
 
 #second-section #images {
@@ -182,6 +187,7 @@ h1 {
     justify-content: center;
     align-content: space-between;
     gap: 10px;
+    padding-top: 20px;
 }
 #second-section #images img {
     width: 22%;
@@ -219,28 +225,91 @@ h1 {
 }
 
 /*THIRD SECTION*/
+#third-section {
+    margin-top: 20px;
+    padding-top: 20px;
+}
 #third-section h1 {
-    margin: 20px 0 0 5%;
+    margin: 0px 0 0 5%;
+    font-size: 50px;
 }
 
+#third-section ul {
+    list-style: none;
+    padding: 0;
+}
+#third-section details {
+    border-bottom: 1px solid #F1F1F1;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+    transition: all 100ms ease-in;
+}
+#third-section details summary {
+    outline: none;
+    cursor: pointer;
+    line-height: 100%;
+}
+#third-section details summary svg {
+    position: absolute;
+    right: 30px;
+}
+#third-section details p {
+    font-weight: normal;
+    margin-top: 40px;
+}
+#third-section details[open] {
+    transition: all 250ms ease-in-out;
+    animation-duration: 0.5s;
+}
+
+
+#third-section details > summary:first-of-type{
+    list-style-type: none;
+}
+#third-section details summary::-webkit-details-marker {
+    display: none;
+}
 
 /*FOURTH SECTION*/
 #fourth-section {
     justify-content: space-around;
 }
+
+#fourth-section h1 {
+    font-size: 50px;
+}
+
 #fourth-section #team-container {
     width: 45%;
+}
+
+#fourth-section ul {
+    list-style: none;
+    padding: 0;
+}
+#fourth-section ul li {
+    margin-top: 35px;
+}
+#fourth-section h4 {
+    display: inline;
+    color: #FF562E;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
 }
 
 #fourth-section #team-images {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 10px;
+    gap: 5px;
     width: 40%;
+    margin-top: 40px;
 }
 #fourth-section img {
-    width: 45%;
+    width: 40%;
     aspect-ratio: 1;
+    border-radius: 5px;
 }
 

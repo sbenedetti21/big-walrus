@@ -5,6 +5,7 @@ import NavButtons from "./NavButtons";
 import {NavLink} from "react-router-dom";
 import {motion} from "framer-motion";
 import Footer from "./Footer";
+import * as Icons from "@material-ui/icons";
 
 function Bar () {
 
@@ -29,11 +30,11 @@ function Bar () {
           </div>
 
           <ul className='flex'>
-            <li><a  id='home-a' href='instagram.com'>HOME</a></li>
-            <li><a href='instagram.com'>ABOUT US</a></li>
-            <li><a href='instagram.com'>ROAD MAP</a></li>
-            <li><a href='instagram.com'>GALLERY</a></li>
-            <li><a href='instagram.com'>FAQ</a></li>
+            <li><a  id='home-a' href='#home-a'>HOME</a></li>
+            <li><a href='#first-section'>ABOUT US</a></li>
+            <li><a href='#second-section'>ROAD MAP</a></li>
+            <li><a href='#images'>GALLERY</a></li>
+            <li><a href='#third-section'>FAQ</a></li>
           </ul>
           <div className='nav-buttons'>
             <NavButtons />
@@ -67,7 +68,7 @@ function Bar () {
           <h1>ROAD MAP</h1>
           <p>Lorem ipsum dolor sit atmet, consectur adjasing eit. Curosr metus eu in etelined</p>
           <div id='roadmap'>
-
+            <img src={require('./assets/roadmap.png')} alt='roadmap'/>
           </div>
           <div className='flex' id='images'>
             <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
@@ -89,23 +90,38 @@ function Bar () {
           <h1>FAQ</h1>
           <ul id='FAQ'>
             <li><details>
-              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <summary>
+                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                <Icons.KeyboardArrowDown />
+              </summary>
               <p>The answer of the FAQ</p>
             </details></li>
             <li><details>
-              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <summary>
+                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                <Icons.KeyboardArrowDown />
+              </summary>
               <p>The answer of the FAQ</p>
             </details></li>
             <li><details>
-              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <summary>
+                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                <Icons.KeyboardArrowDown />
+              </summary>
               <p>The answer of the FAQ</p>
             </details></li>
             <li><details>
-              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <summary>
+                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                <Icons.KeyboardArrowDown />
+              </summary>
               <p>The answer of the FAQ</p>
             </details></li>
             <li><details>
-              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <summary>
+                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                <Icons.KeyboardArrowDown />
+              </summary>
               <p>The answer of the FAQ</p>
             </details></li>
           </ul>
@@ -116,10 +132,10 @@ function Bar () {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend.
               Tincidunt varius ultricies consequat aliquam consequat in dolor maecenas.</p>
             <ul id='team'>
-              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
             </ul>
           </div>
           <div id='team-images' className='flex'>
