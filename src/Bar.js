@@ -4,6 +4,7 @@ import './Bar.css';
 import NavButtons from "./NavButtons";
 import {NavLink} from "react-router-dom";
 import {motion} from "framer-motion";
+import Footer from "./Footer";
 
 function Bar () {
 
@@ -48,8 +49,8 @@ function Bar () {
         </div>
         <br/>
         <div className='separator'/>
-        <div className='flex' id='second-section'>
-          <img src={require('./assets/photo_2022-03-18_21-21-42.jpg')} alt='walrus-02'/>
+        <div className='flex' id='first-section'>
+          <img src={require('./assets/Morsas-02.jpg')} alt='walrus-02'/>
           <div>
             <h2>THE BIG</h2>
             <h2 id='walrus'>WALRUS</h2>
@@ -62,6 +63,74 @@ function Bar () {
           </div>
         </div>
         <div className='separator'/>
+        <div className='flex' id='second-section'>
+          <h1>ROAD MAP</h1>
+          <p>Lorem ipsum dolor sit atmet, consectur adjasing eit. Curosr metus eu in etelined</p>
+          <div id='roadmap'>
+
+          </div>
+          <div className='flex' id='images'>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+          </div>
+          <div id='below-images'>
+            <h1>BUY A WALRUS</h1>
+            <p>The initial sale has sold out. To get your Walrus, check out the collection on OpenSea</p>
+            <a id='button-buy' href='https://opensea.io'>BUY A WALRUS ON OPENSEA</a>
+          </div>
+        </div>
+        <div id='third-section'>
+          <h1>FAQ</h1>
+          <ul id='FAQ'>
+            <li><details>
+              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <p>The answer of the FAQ</p>
+            </details></li>
+            <li><details>
+              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <p>The answer of the FAQ</p>
+            </details></li>
+            <li><details>
+              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <p>The answer of the FAQ</p>
+            </details></li>
+            <li><details>
+              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <p>The answer of the FAQ</p>
+            </details></li>
+            <li><details>
+              <summary>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend? </summary>
+              <p>The answer of the FAQ</p>
+            </details></li>
+          </ul>
+        </div>
+        <div id='fourth-section' className='flex'>
+          <div id='team-container'>
+            <h1>THE TEAM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend.
+              Tincidunt varius ultricies consequat aliquam consequat in dolor maecenas.</p>
+            <ul id='team'>
+              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li>LOREM: Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+            </ul>
+          </div>
+          <div id='team-images' className='flex'>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+          </div>
+        </div>
+        <div className='separator'/>
+        <Footer />
       </motion.div>
   )
 }

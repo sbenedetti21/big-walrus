@@ -8,6 +8,9 @@ a {
     border-top: 1px solid #F1F1F1;
     margin-block: 40px;
 }
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
 
 /* NAV BAR */
 /*-barra donde van las cosas-*/
@@ -15,6 +18,7 @@ a {
 .bar-nav {
     justify-content: space-between !important;
     padding-block: 2px;
+    gap: 50px;
 }
 
 /*---------------------------*/
@@ -28,19 +32,16 @@ a {
 
 /*color del fondo */
 .botonWalrus{
-   background: WHITE;
-  display: flex;
-  width: 63px;
-  height: 69px;
-border-radius: 100%;
-
+    background: WHITE;
+    display: flex;
+    width: 63px;
+    height: 69px;
+    border-radius: 100%;
+    align-self: flex-start !important;
 }
-
-
 .botonWalrus:hover{
   background: #D65E48;
 }
-
 .botonWalrus:hover #logo-big{
   color: #D65E48;
 }
@@ -140,24 +141,106 @@ border-radius: 100%;
 
 /*FIRST SECTION*/
 
-#second-section {
+#first-section {
     justify-content: space-around !important;
     align-items: flex-start;
 }
-#second-section img {
+#first-section img {
     width: 33%;
     border-radius: 10px;
 }
-#second-section div h2 {
+#first-section div h2 {
     margin: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 32px;
     line-height: 100%;
 }
-#second-section div #walrus {
+#first-section div #walrus {
     font-size: 60px;
     color: #FF562E;
 }
-#second-section div {
+#first-section div {
     width: 50%;
 }
+
+/*SECOND SECTION*/
+#second-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section #roadmap {
+    height: 700px;
+    width: 1px;
+    border: 1px solid #FF562E;
+    margin: 20px;
+}
+
+#second-section #images {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 10px;
+}
+#second-section #images img {
+    width: 22%;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+#second-section #below-images {
+    align-self: flex-end !important;
+    text-align: right;
+    margin-right: 5%;
+    width: 30%;
+}
+#second-section #below-images h1 {
+    font-size: 50px;
+    margin: 0;
+}
+#second-section #below-images p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#second-section #below-images a {
+    background: #FF562E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#second-section #below-images a:hover {
+    background: #F1F1F1;
+    color: #FF562E;
+    transition: background 150ms ease-in;
+}
+
+/*THIRD SECTION*/
+#third-section h1 {
+    margin: 20px 0 0 5%;
+}
+
+
+/*FOURTH SECTION*/
+#fourth-section {
+    justify-content: space-around;
+}
+#fourth-section #team-container {
+    width: 45%;
+}
+
+#fourth-section #team-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    width: 40%;
+}
+#fourth-section img {
+    width: 45%;
+    aspect-ratio: 1;
+}
+
