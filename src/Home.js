@@ -28,7 +28,9 @@ function Home() {
         <NavButtons />
       </div>
       <div id='banner-container'>
-        <img src={require('./assets/WalrusBar-home.jpg')} alt='banner'/>
+        <video className='banner-video' autoPlay={true} loop={true}>
+          <source src={require('./assets/banner.mp4')} />
+        </video>
       </div>
       <div id='enter-bar'>
         <h1>WELCOME TO THE BIG WALRUS</h1>
