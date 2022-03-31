@@ -177,9 +177,12 @@ h1 {
 }
 #second-section #roadmap {
     width: 100%;
+     padding-bottom: 10%;
+     margin-right: 20%;
 }
 #second-section #roadmap img {
-    width: 100%;
+    width: 120%;
+
 }
 
 #second-section #images {

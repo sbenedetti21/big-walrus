@@ -66,11 +66,13 @@ function Bar () {
         <div className='separator'/>
         <div className='flex' id='second-section'>
           <h1>ROAD MAP</h1>
-          <p>Lorem ipsum dolor sit atmet, consectur adjasing eit. Curosr metus eu in etelined</p>
+          
           <div id='roadmap'>
             <img src={require('./assets/roadmap.png')} alt='roadmap'/>
           </div>
+          
           <div className='flex' id='images'>
+
             <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
             <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
             <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
@@ -81,6 +83,7 @@ function Bar () {
             <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
           </div>
           <div id='below-images'>
+
             <h1>BUY A WALRUS</h1>
             <p>The initial sale has sold out. To get your Walrus, check out the collection on OpenSea</p>
             <a id='button-buy' href='https://opensea.io'>BUY A WALRUS ON OPENSEA</a>
