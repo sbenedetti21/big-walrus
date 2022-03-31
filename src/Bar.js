@@ -45,21 +45,27 @@ function Bar () {
         </div>
         <div id='below-banner'>
           <h1>BUY A WALRUS</h1>
-          <p>The initial sale has sold out. To get your Walrus, check out the collection on OpenSea</p>
-          <a id='button-buy' href='https://opensea.io'>BUY A WALRUS ON OPENSEA</a>
+          <p id='padding'>
+          <j id="subtituloPrincipal"> There are no bonding curves here. Buying a Big Walrus costs <f id= 'SoloEnNegrita'> 0.3 SOL </f>. <f id="colorNaranja">(There are no whitelists or pre-sales, <f id= 'SoloEnNegrita'> everyone can participate</f>)</f></j>
+          </p>
+          <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/'>BUY A WALRUS ON OPENSEA</a>
         </div>
         <br/>
         <div className='separator'/>
         <div className='flex' id='first-section'>
-          <img src={require('./assets/Morsas-02.jpg')} alt='walrus-02'/>
+          <img src={require('./assets/gifPrincipal.gif')} alt='walrus-02' id= "picture1"/>
           <div>
             <h2>THE BIG</h2>
             <h2 id='walrus'>WALRUS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend. Tincidunt varius
-              ultricies consequat aliquam consequat in dolor maecenas. Risus egestas sit pharetra tortor. Suscipit arcu
-              nunc id fermentum tempus.<br />
-              Risus egestas sit pharetra tortor. Suscipit arcu nunc id fermentum. Risus egestas sit pharetra
-              tortor. Suscipit arcu nunc id fermentum tempus.Risus egestas.
+
+            <p id='ProgetDefinition'> 
+            <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>. We only have one chance to do it right, so we obsess over  <a id= 'SoloEnNegrita'> quality </a> and review all  <a id= 'SoloEnNegrita'> details </a>.
+            That's why we decided to make each Big Walrus NFT by hand in a completely  <a id= 'SoloEnNegrita'> handmade </a> way , making The Big Walrus a   <a id= 'SoloEnNegrita'> unique collection </a>. 
+            The liquidity of the collection is very limited, for the work and the time that it takes to carry out each one of them.<br />
+            Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <a id= 'SoloEnNegrita'> Big Walrus membership card </a>, 
+            and grants access to <a id= 'SoloEnNegrita'> members-only benefits </a> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
+            Future areas and perks can be <a id= 'SoloEnNegrita'> unlocked by the community </a> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
             </p>
           </div>
         </div>
@@ -142,10 +148,10 @@ function Bar () {
             </ul>
           </div>
           <div id='team-images' className='flex'>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/Santiag.png')} alt='morsa'/>
+            <img src={require('./assets/Giuli.png')} alt='morsa'/>
+            <img src={require('./assets/Camila.png')} alt='morsa'/>
+            <img src={require('./assets/Francisco.png')} alt='morsa'/>
           </div>
         </div>
         <div className='separator'/>

@@ -122,7 +122,8 @@ h1 {
 }
 #below-banner p {
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 3px;
 }
 #below-banner a {
     background: #FF562E;
@@ -130,7 +131,7 @@ h1 {
     border-radius: 5px;
     color: #F1F1F1;
     margin-top: 5px;
-    font-size: 16px;
+
     font-family: 'Inter', sans-serif;
 }
 #below-banner a:hover {
@@ -138,6 +139,31 @@ h1 {
     color: #FF562E;
     transition: background 150ms ease-in;
 }
+
+/*configuracion del terxto debajo de BUY WALRUS*/
+#ProgetDefinition{
+font-weight: initial;
+font-family: 'verdana';
+font-size: 16.5px;
+line-height:25px;
+}
+#SoloEnNegrita{
+font-weight: bold;
+}
+#subtituloPrincipal{
+margin-top: -20px;
+    font-weight: initial;
+    font-family: 'verdana';
+    font-size: 16px;
+line-height:25px;
+
+}
+
+#colorNaranja{
+    color: #FF562E;
+    font-size: 14px;
+}
+
 
 /*FIRST SECTION*/
 
@@ -149,12 +175,11 @@ h1 {
 }
 #first-section img {
     width: 33%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 #first-section div h2 {
     margin: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 32px;
     line-height: 100%;
 }
 #first-section div #walrus {
@@ -162,11 +187,15 @@ h1 {
     color: #FF562E;
 }
 #first-section div {
-    width: 50%;
+    width: 58%;
 }
 
+#picture1{
+    margin-top: 0%;
+}
 /*SECOND SECTION*/
 #second-section {
+    margin-top: -3%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -306,13 +335,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 5px;
+    gap: 15px;
     width: 40%;
     margin-top: 40px;
 }
 #fourth-section img {
     width: 40%;
     aspect-ratio: 1;
-    border-radius: 5px;
+    border-radius: 10px;
+     filter: contrast(110%);
 }
 
