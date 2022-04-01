@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+a {
+    text-decoration: none;
+}
+.separator {
+    border-top: 1px solid #F1F1F1;
+    margin-block: 40px;
+}
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* NAV BAR */
+/*-barra donde van las cosas-*/
+
+.bar-nav {
+    justify-content: space-between !important;
+    padding-block: 2px;
+    gap: 50px;
+}
+
+/*---------------------------*/
+/*-logo con la imagen walerus-*/
+
+#centrar-img{
+    margin-top: -2px;
+   margin-left: -7.2px;
+  display: flex;
+}
+
+/*color del fondo */
+.botonWalrus{
+    background: WHITE;
+    display: flex;
+    width: 63px;
+    height: 69px;
+    border-radius: 100%;
+    align-self: flex-start !important;
+}
+.botonWalrus:hover{
+  background: #D65E48;
+}
+.botonWalrus:hover #logo-big{
+  color: #D65E48;
+}
+.botonWalrus:hover  #walerus{
+  color: #D65E48;
+}
+
+#logo-nav img {
+     border-radius: 100%;
+    height: 73px;
+}
+
+#logo-nav div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+     margin-right: -10%;
+     margin-left: 5%;
+}
+
+#logo-nav h2 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#logo-nav #logo-big {
+    margin-left: 22%;
+    margin-bottom: -5%;
+    font-size: 17px;
+    padding-top: -1px;
+}
+#logo-nav #walerus {
+    font-size: 30px;
+
+}
+
+
+/*---------------------------*/
+
+
+.bar-nav ul {
+    list-style: none;
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between !important;
+     align-items: center; /*-centra los textos-*/
+     margin-left: -10%;
+}
+.bar-nav ul a {
+    text-decoration: none;
+    font-size: 17px;
+}
+.bar-nav #home-a {
+    color: #FF562E;
+}
+.bar-nav .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+}
+.banner-container img {
+    width: 100%;
+}
+
+#below-banner h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 70px;
+    margin: 0;
+}
+#below-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+#below-banner a {
+    background: #FF562E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    margin-top: 5px;
+
+    font-family: 'Inter', sans-serif;
+}
+#below-banner a:hover {
+    background: #F1F1F1;
+    color: #FF562E;
+    transition: background 150ms ease-in;
+}
+
+/*configuracion del terxto debajo de BUY WALRUS*/
+#ProgetDefinition{
+font-weight: initial;
+font-family: 'verdana';
+font-size: 16.5px;
+line-height:25px;
+}
+#SoloEnNegrita{
+font-weight: bold;
+}
+#subtituloPrincipal{
+margin-top: -20px;
+    font-weight: initial;
+    font-family: 'verdana';
+    font-size: 16px;
+line-height:25px;
+
+}
+
+#colorNaranja{
+    color: #FF562E;
+    font-size: 14px;
+}
+
+
+/*FIRST SECTION*/
+
+#first-section {
+    justify-content: space-around !important;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#first-section img {
+    width: 33%;
+    border-radius: 20px;
+}
+#first-section div h2 {
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 100%;
+}
+#first-section div #walrus {
+    font-size: 60px;
+    color: #FF562E;
+}
+#first-section div {
+    width: 58%;
+}
+
+#picture1{
+    margin-top: 0%;
+}
+/*SECOND SECTION*/
+#second-section {
+    margin-top: -3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section h1 {
+    font-size: 50px;
+}
+#second-section #roadmap {
+    width: 100%;
+     padding-bottom: 10%;
+     margin-right: 20%;
+}
+#second-section #roadmap img {
+    width: 120%;
+
+}
+
+#second-section #images {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 15px;
+    padding-top: 20px;
+}
+#second-section #images img {
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+
+#second-section #below-images {
+    align-self: flex-end !important;
+    text-align: right;
+    margin-right: 5%;
+    width: 30%;
+}
+#second-section #below-images h1 {
+    font-size: 50px;
+    margin: 0;
+}
+#second-section #below-images p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#second-section #below-images a {
+    background: #FF562E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#second-section #below-images a:hover {
+    background: #F1F1F1;
+    color: #FF562E;
+    transition: background 150ms ease-in;
+}
+
+/*THIRD SECTION*/
+#third-section {
+    margin-top: 30px;
+    margin-bottom:40px;
+    padding-top: 40px;
+}
+#third-section h1 {
+    margin: 0px 0 0 5%;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#third-section ul {
+    list-style: none;
+  
+}
+#third-section details {
+    border-bottom: 1px solid #F1F1F1;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 100ms ease-in;
+}
+#third-section details summary {
+    outline: none;
+    cursor: pointer;
+    line-height: 150%;
+}
+#third-section details summary svg {
+    position: absolute;
+    right: 30px;
+}
+#third-section details p {
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: -1px;
+        font-size: 17px;
+    margin-left: 30px;
+}
+#third-section details[open] {
+    transition: all 250ms ease-in-out;
+    animation-duration: 1s;
+}
+
+
+#third-section details > summary:first-of-type{
+    list-style-type: none;
+}
+#third-section details summary::-webkit-details-marker {
+    display: none;
+}
+
+/*FOURTH SECTION*/
+#fourth-section {
+    justify-content: space-around;
+
+}
+
+#fourth-section h1 {
+    font-size: 50px;
+        margin-top: -5px;
+}
+
+#fourth-section #team-container {
+    width: 45%;
+}
+
+#fourth-section ul {
+    list-style: none;
+    padding: 0;
+}
+#fourth-section ul li {
+    margin-top: 27px;
+}
+#fourth-section h4 {
+    display: inline;
+    color: #FF562E;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 23px;
+}
+#fourth-section p {
+    margin-top: -15px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#fourth-section #team-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    width: 40%;
+    margin-top: 40px;
+}
+#fourth-section img {
+    width: 40%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+     filter: contrast(110%);
+}
+
