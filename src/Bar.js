@@ -48,7 +48,7 @@ function Bar () {
           <p id='padding'>
           <j id="subtituloPrincipal"> There are no bonding curves here. Buying a Big Walrus costs <f id= 'SoloEnNegrita'> 0.3 SOL </f>. <f id="colorNaranja">(There are no whitelists or pre-sales, <f id= 'SoloEnNegrita'> everyone can participate</f>)</f></j>
           </p>
-          <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/'>BUY A WALRUS ON OPENSEA</a>
+          <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer">BUY A WALRUS ON OPENSEA</a>
         </div>
         <br/>
         <div className='separator'/>
@@ -79,20 +79,18 @@ function Bar () {
           
           <div className='flex' id='images'>
 
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
-            <img src={require('./assets/Morsas-02.jpg')} alt='morsa'/>
+            <img src={require('./assets/morsas/3.png')} alt='morsa'/>
+            <img src={require('./assets/morsas/6.png')} alt='morsa'/>
+            <img src={require('./assets/morsas/8.png')} alt='morsa'/>
+            <img src={require('./assets/morsas/7.png')} alt='morsa'/>
+            <img src={require('./assets/morsas/9.png')} alt='morsa'/>
+            <img src={require('./assets/morsas/5.png')} alt='morsa'/>
           </div>
           <div id='below-images'>
 
             <h1>BUY A WALRUS</h1>
             <p>The initial sale has sold out. To get your Walrus, check out the collection on OpenSea</p>
-            <a id='button-buy' href='https://opensea.io'>BUY A WALRUS ON OPENSEA</a>
+            <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" >BUY A WALRUS ON OPENSEA</a>
           </div>
         </div>
         <div id='third-section'>
@@ -100,58 +98,57 @@ function Bar () {
           <ul id='FAQ'>
             <li><details>
               <summary>
-                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                When is the mint date?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The answer of the FAQ</p>
+              <p>The exact date is still under discussion but it will be in the month of April</p>
             </details></li>
             <li><details>
               <summary>
-                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                 What will the price be?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The answer of the FAQ</p>
+              <p>Te minting price is 0.3 SOL. The Big Walrus collection will be published on the @openSea page, on the Solana network. </p>
             </details></li>
             <li><details>
               <summary>
-                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                How do I get whitelisted? When will the pre-sale be?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The answer of the FAQ</p>
+              <p> We are not doing pre-sales or whitelisting. Everyone will get the same fair chance to mint a Big Walrus on mint day. </p>
             </details></li>
             <li><details>
               <summary>
-                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+               How many Big Walruses will be available?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The answer of the FAQ</p>
+              <p>The initial amount of walruses published in open sea will be 25 walruses, to see more information check the Road Map </p>
             </details></li>
             <li><details>
               <summary>
-                ¿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend?
+                Who is the team behind it?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The answer of the FAQ</p>
+              <p>In summary, we are a group of experienced professional engineers who like to do things right. We hope to exceed all your expectations! (You can read more about it on the Team section, right below).</p>
             </details></li>
           </ul>
         </div>
         <div id='fourth-section' className='flex'>
           <div id='team-container'>
             <h1>THE TEAM</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend.
-              Tincidunt varius ultricies consequat aliquam consequat in dolor maecenas.</p>
+            <p> Made up of 4 old friends who met in college, TBW team is made up of people with a clear objective and an achievable goal.</p>
             <ul id='team'>
-              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
-              <li><h4>LOREM:</h4> Lorem ipsum dolor sit atmet, consectur adpiscing eit</li>
+              <li><h4>DOCTOR GRANT: </h4>  Loves dinosaurs but 's a bit dyslexic</li>
+              <li><h4>STEVEN:</h4>  Addicted to the series but draws well</li>
+              <li><h4>FIELD GARMET:</h4> Drinks "mate" all day, but 's smart.</li>
+              <li><h4>EDWARD TEACH:</h4> Loves to be in the tavern with the walruses</li>
             </ul>
           </div>
           <div id='team-images' className='flex'>
-            <img src={require('./assets/Santiag.png')} alt='morsa'/>
+            <img src={require('./assets/Francisco.png')} alt='morsa'/>
             <img src={require('./assets/Giuli.png')} alt='morsa'/>
             <img src={require('./assets/Camila.png')} alt='morsa'/>
-            <img src={require('./assets/Francisco.png')} alt='morsa'/>
+            <img src={require('./assets/Santiag.png')} alt='morsa'/>
           </div>
         </div>
         <div className='separator'/>

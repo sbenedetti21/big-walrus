@@ -218,13 +218,13 @@ line-height:25px;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
-    gap: 10px;
+    gap: 15px;
     padding-top: 20px;
 }
 #second-section #images img {
-    width: 22%;
+    width: 30%;
     aspect-ratio: 1;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #second-section #below-images {
@@ -258,30 +258,33 @@ line-height:25px;
 
 /*THIRD SECTION*/
 #third-section {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom:40px;
+    padding-top: 40px;
 }
 #third-section h1 {
     margin: 0px 0 0 5%;
     font-size: 50px;
+    margin-bottom: 20px;
+
 }
 
 #third-section ul {
     list-style: none;
-    padding: 0;
+  
 }
 #third-section details {
     border-bottom: 1px solid #F1F1F1;
     padding: 20px;
     padding-bottom: 30px;
     font-weight: bold;
-
+    font-size: 20px;
     transition: all 100ms ease-in;
 }
 #third-section details summary {
     outline: none;
     cursor: pointer;
-    line-height: 100%;
+    line-height: 150%;
 }
 #third-section details summary svg {
     position: absolute;
@@ -289,11 +292,14 @@ line-height:25px;
 }
 #third-section details p {
     font-weight: normal;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: -1px;
+        font-size: 17px;
+    margin-left: 30px;
 }
 #third-section details[open] {
     transition: all 250ms ease-in-out;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 
 
@@ -307,10 +313,12 @@ line-height:25px;
 /*FOURTH SECTION*/
 #fourth-section {
     justify-content: space-around;
+
 }
 
 #fourth-section h1 {
     font-size: 50px;
+        margin-top: -5px;
 }
 
 #fourth-section #team-container {
@@ -322,13 +330,18 @@ line-height:25px;
     padding: 0;
 }
 #fourth-section ul li {
-    margin-top: 35px;
+    margin-top: 27px;
 }
 #fourth-section h4 {
     display: inline;
     color: #FF562E;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 23px;
+}
+#fourth-section p {
+    margin-top: -15px;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 #fourth-section #team-images {
