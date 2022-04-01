@@ -33,7 +33,7 @@ function Bar () {
             <li><a  id='home-a' href='#home-a'>HOME</a></li>
             <li><a href='#first-section'>ABOUT US</a></li>
             <li><a href='#second-section'>ROAD MAP</a></li>
-            <li><a href='#images'>GALLERY</a></li>
+            <li><a href='#images'>MINI GALLERY</a></li>
             <li><a href='#third-section'>FAQ</a></li>
           </ul>
           <div className='nav-buttons'>
@@ -41,7 +41,11 @@ function Bar () {
           </div>
         </nav>
         <div className='banner-container'>
-          <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
+ 
+          <video className='banner-video' autoPlay={true} loop={true}>
+             <source src={require('./assets/baradentrom.mp4')} />
+          </video>
+
         </div>
         <div id='below-banner'>
           <h1>BUY A WALRUS</h1>
@@ -89,7 +93,7 @@ function Bar () {
           <div id='below-images'>
 
             <h1>BUY A WALRUS</h1>
-            <p>The initial sale has sold out. To get your Walrus, check out the collection on OpenSea</p>
+            <p> To get your Walrus, check out the collection on OpenSea</p>
             <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" >BUY A WALRUS ON OPENSEA</a>
           </div>
         </div>

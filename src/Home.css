@@ -57,10 +57,13 @@
   flex-direction: column;
   justify-content: right;
   align-self: end;
+    border-radius: 50px 0px 0px 0px;
 
   width: 300px;
   height: 210px;
-  background: #0E0D0D;
+  /*background: #0E0D0D;*/
+  background:rgb(14,13,13, 0.94);
+
   color: #F1F1F1;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 20px;

@@ -238,8 +238,11 @@ line-height:25px;
     margin: 0;
 }
 #second-section #below-images p {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 50px;
+
 }
 #second-section #below-images a {
     background: #FF562E;
@@ -258,7 +261,7 @@ line-height:25px;
 
 /*THIRD SECTION*/
 #third-section {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom:40px;
     padding-top: 40px;
 }
