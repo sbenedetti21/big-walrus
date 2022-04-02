@@ -234,7 +234,7 @@ line-height:25px;
     width: 30%;
 }
 #second-section #below-images h1 {
-    font-size: 50px;
+    font-size: 58px;
     margin: 0;
 }
 #second-section #below-images p {
@@ -246,7 +246,7 @@ line-height:25px;
 }
 #second-section #below-images a {
     background: #FF562E;
-    padding: 10px 15px;
+    padding: 15px 15px;
     border-radius: 5px;
     color: #F1F1F1;
     margin-top: 5px;
@@ -258,6 +258,14 @@ line-height:25px;
     color: #FF562E;
     transition: background 150ms ease-in;
 }
+
+.zoom {
+    transition:transform .5s;
+}
+.zoom:hover{
+transform:scale(1.05);
+}
+
 
 /*THIRD SECTION*/
 #third-section {

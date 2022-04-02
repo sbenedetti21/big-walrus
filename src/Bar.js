@@ -42,9 +42,7 @@ function Bar () {
         </nav>
         <div className='banner-container'>
  
-          <video className='banner-video' autoPlay={true} loop={true}>
-             <source src={require('./assets/baradentrom.mp4')} />
-          </video>
+          <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
 
         </div>
         <div id='below-banner'>
@@ -83,12 +81,12 @@ function Bar () {
           
           <div className='flex' id='images'>
 
-            <img src={require('./assets/morsas/3.png')} alt='morsa'/>
-            <img src={require('./assets/morsas/6.png')} alt='morsa'/>
-            <img src={require('./assets/morsas/8.png')} alt='morsa'/>
-            <img src={require('./assets/morsas/7.png')} alt='morsa'/>
-            <img src={require('./assets/morsas/9.png')} alt='morsa'/>
-            <img src={require('./assets/morsas/5.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/3.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/6.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/8.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/7.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/9.png')} alt='morsa'/>
+            <img class='zoom' src={require('./assets/morsas/5.png')} alt='morsa'/>
           </div>
           <div id='below-images'>
 
