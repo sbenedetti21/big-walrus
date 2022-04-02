@@ -19,6 +19,7 @@ function Bar () {
 
        
         <nav className='flex bar-nav' >
+
          <div className="botonWalrus" >
             <NavLink to={'/'} className='flex' id='logo-nav'>
               <img src={require('./assets/Logotrasnparente.png')} alt='logo' id="centrar-img"/>
@@ -35,11 +36,14 @@ function Bar () {
             <li><a href='#second-section'>ROAD MAP</a></li>
             <li><a href='#images'>MINI GALLERY</a></li>
             <li><a href='#third-section'>FAQ</a></li>
+            <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer"><f >BUY A WALRUS</f></a></div></li>
           </ul>
           <div className='nav-buttons'>
             <NavButtons />
           </div>
+
         </nav>
+
         <div className='banner-container'>
  
           <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
@@ -50,7 +54,6 @@ function Bar () {
           <p id='padding'>
           <j id="subtituloPrincipal"> There are no bonding curves here. Buying a Big Walrus costs <f id= 'SoloEnNegrita'> 0.3 SOL </f>. <f id="colorNaranja">(There are no whitelists or pre-sales, <f id= 'SoloEnNegrita'> everyone can participate</f>)</f></j>
           </p>
-          <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer">BUY A WALRUS ON OPENSEA</a>
         </div>
         <br/>
         <div className='separator'/>
