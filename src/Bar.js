@@ -46,7 +46,7 @@ function Bar () {
 
         </div>
         <div id='below-banner'>
-          <h1>BUY A WALRUS</h1>
+          <h1>DISCOVER OUR PROJECT</h1>
           <p id='padding'>
           <j id="subtituloPrincipal"> There are no bonding curves here. Buying a Big Walrus costs <f id= 'SoloEnNegrita'> 0.3 SOL </f>. <f id="colorNaranja">(There are no whitelists or pre-sales, <f id= 'SoloEnNegrita'> everyone can participate</f>)</f></j>
           </p>
