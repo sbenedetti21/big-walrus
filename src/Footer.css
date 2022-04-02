@@ -1,0 +1,15 @@
+#logos {
+    flex-wrap: wrap;
+        justify-content: left !important;
+    align-content: space-between;
+    gap: 15px;
+    padding-top: 20px;
+    position:relative;
+}
+
+#logo img{
+margin: 30%;
+width: 65px;
+border-radius:  15px;
+height: 65px;
+}
