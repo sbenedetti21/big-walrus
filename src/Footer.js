@@ -6,13 +6,9 @@ import './Footer.css'
 function Footer() {
   return(
       <footer className='flex'>
-        <div>
-          <h2>Join the developer list</h2>
-          <p id='sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus metus eu in eleifend. Tincidunt varius ultricies consequat aliquam consequat in dolor maecenas.</p>
-        </div>
         <div id='logos'>
         <a href='https://opensea.io/collection/thebigwalerus-store/'  target='_blank' rel="noreferrer">
-          <img src={require('./assets/LogoBlanco.png')}  width="40" height="31" />
+          <img src={require('./assets/TheBigWalrus.png')}  />
         </a>
         <a href='https://solana.com/ecosystem/'  target='_blank' rel="noreferrer">
           <img src={require('./assets/Solana.png')}  />
