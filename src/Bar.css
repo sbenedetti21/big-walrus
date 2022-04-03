@@ -251,24 +251,54 @@ line-height:25px;
 
 /*SECOND SECTION*/
 #second-section {
-    margin-top: -3%;
+    margin-top: -4%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #second-section h1 {
-    font-size: 50px;
+    font-size: 60px;
+
 }
 #second-section #roadmap {
-    width: 100%;
+
      padding-bottom: 10%;
 
 }
 #second-section #roadmap img {
-    width: 100%;
+    width:60%;
+    margin-left: -15%;
 
 }
+
+#roadmap{
+        display: flex;
+   flex-direction: row;
+
+align-items: center;
+margin-top:5px;
+margin-left: 12%;
+margin-bottom: 8px;
+}
+
+#second-section #referencias{
+       font-size: 43px;
+    align-self: flex-end !important;
+     align-self: left;
+    text-align: right;
+font-family: 'Barlow Semi Condensed', sans-serif;
+letter-spacing: 2px;
+  color: #FF562E;
+
+}
+
+#second-section #text{
+    margin-top: -21%;
+}
+
+
 
 #second-section #images {
     flex-wrap: wrap;

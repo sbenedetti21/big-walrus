@@ -76,24 +76,29 @@ function Bar () {
         </div>
         <div className='separator'/>
         <div className='flex' id='second-section'>
-          <h1>ROAD MAP</h1>
           
+          <h1>ROAD MAP</h1>
+
           <div id='roadmap'>
-            <img src={require('./assets/roadmap.png')} alt='roadmap'/>
-          </div>
-           <h2>THE BIG</h2>
-            <h2 id='walrus'>WALRUS</h2>
+            <img src={require('./assets/RoadMap1.png')} alt='RoadMap1'/>
+            <div id='text'>
+            
+            <h2 id='referencias'>REFERENCES:</h2>
 
             <p id='ProgetDefinition'> 
-            <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>. We only have one chance to do it right, so we obsess over  <a id= 'SoloEnNegrita'> quality </a> and review all  <a id= 'SoloEnNegrita'> details </a>.
             That's why we decided to make each Big Walrus NFT by hand in a completely  <a id= 'SoloEnNegrita'> handmade </a> way , making The Big Walrus a   <a id= 'SoloEnNegrita'> unique collection </a>. 
             The liquidity of the collection is very limited, for the work and the time that it takes to carry out each one of them.<br />
             Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <a id= 'SoloEnNegrita'> Big Walrus membership card </a>, 
             and grants access to <a id= 'SoloEnNegrita'> members-only benefits </a> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
             Future areas and perks can be <a id= 'SoloEnNegrita'> unlocked by the community </a> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
+           
             </p>
-            
+            </div>
+            </div>
+
+
           <div className='flex' id='images'>
 
             <img class='zoom' src={require('./assets/morsas/3.png')} alt='morsa'/>
