@@ -18,7 +18,7 @@ function Bar () {
         className='common-container flex'>
 
        
-        <nav className='flex bar-nav' >
+        <nav className='bar-nav' >
 
          <div className="botonWalrus" >
             <NavLink to={'/'} className='flex' id='logo-nav'>
@@ -31,20 +31,25 @@ function Bar () {
           </div>
 
           <ul className='flex'>
-            <li><a  id='home-a' href='#home-a'>HOME</a></li>
-            <li><a href='#first-section'>ABOUT US</a></li>
+            <li><a href='#home'>HOME</a></li>
+            <li><a href='#MoverAca'>ABOUT US</a></li>
             <li><a href='#second-section'>ROAD MAP</a></li>
             <li><a href='#images'>MINI GALLERY</a></li>
             <li><a href='#third-section'>FAQ</a></li>
             <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer"><f >BUY A WALRUS</f></a></div></li>
           </ul>
+
+            <div className='nav-lines'>
+              <Icons.Menu/>
+            </div>
+
           <div className='nav-buttons'>
             <NavButtons />
           </div>
 
         </nav>
 
-        <div className='banner-container'>
+        <div className='banner-container' id='home'>
  
           <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
 
@@ -56,7 +61,7 @@ function Bar () {
           </p>
         </div>
         <br/>
-        <div className='separator'/>
+        <div className='separator' id='MoverAca'/>
         <div className='flex' id='first-section'>
           <img src={require('./assets/gifPrincipal.gif')} alt='walrus-02' id= "picture1"/>
           <div>
@@ -64,13 +69,13 @@ function Bar () {
             <h2 id='walrus'>WALRUS</h2>
 
             <p id='ProgetDefinition'> 
-            <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>. We only have one chance to do it right, so we obsess over  <a id= 'SoloEnNegrita'> quality </a> and review all  <a id= 'SoloEnNegrita'> details </a>.
-            That's why we decided to make each Big Walrus NFT by hand in a completely  <a id= 'SoloEnNegrita'> handmade </a> way , making The Big Walrus a   <a id= 'SoloEnNegrita'> unique collection </a>. 
+            <b>The Big Walrus (TBW)</b> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <b> immutable and forever </b>. We only have one chance to do it right, so we obsess over  <b> quality </b> and review all  <b> details </b>.
+            That's why we decided to make each Big Walrus NFT by hand in a completely  <b id= 'SoloEnNegrita'> handmade </b> way , making The Big Walrus a   <b> unique collection </b>. 
             The liquidity of the collection is very limited, for the work and the time that it takes to carry out each one of them.<br />
-            Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <a id= 'SoloEnNegrita'> Big Walrus membership card </a>, 
-            and grants access to <a id= 'SoloEnNegrita'> members-only benefits </a> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
-            Future areas and perks can be <a id= 'SoloEnNegrita'> unlocked by the community </a> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
+            Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <b id= 'SoloEnNegrita'> Big Walrus membership card </b>, 
+            and grants access to <b> members-only benefits </b> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
+            Future areas and perks can be <b > unlocked by the community </b> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
             </p>
           </div>
         </div>
@@ -81,20 +86,44 @@ function Bar () {
 
           <div id='roadmap'>
             <img src={require('./assets/RoadMap1.png')} alt='RoadMap1'/>
-            <div id='text'>
             
+
+            
+            <div id='text'>
             <h2 id='referencias'>REFERENCES:</h2>
 
-            <p id='ProgetDefinition'> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>. We only have one chance to do it right, so we obsess over  <a id= 'SoloEnNegrita'> quality </a> and review all  <a id= 'SoloEnNegrita'> details </a>.
-            That's why we decided to make each Big Walrus NFT by hand in a completely  <a id= 'SoloEnNegrita'> handmade </a> way , making The Big Walrus a   <a id= 'SoloEnNegrita'> unique collection </a>. 
-            The liquidity of the collection is very limited, for the work and the time that it takes to carry out each one of them.<br />
-            Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <a id= 'SoloEnNegrita'> Big Walrus membership card </a>, 
-            and grants access to <a id= 'SoloEnNegrita'> members-only benefits </a> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
-            Future areas and perks can be <a id= 'SoloEnNegrita'> unlocked by the community </a> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
-           
+            <h3>THE BEGINNING</h3> <span class="colorChicoNaranja">  (starting point)</span>
+            <p> 
+            We start owr journey in search of the lost treasure by launching . The Big Walrus NFT, with a Mint price of 0.3 SOL
             </p>
+            <h3 class="colorChicoNaranja1">1. </h3><h3>WICKED PALM TREES</h3>
+            <p> 
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            </p>
+            <h3>2. </h3><h3>THE BEGINNING</h3>
+            <p> 
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            </p>
+            <h3>3. </h3><h3>THE BEGINNING</h3>
+            <p> 
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            </p>
+            <h3>4. </h3><h3>THE BEGINNING</h3>
+            <p> 
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            </p>
+            <h3>5. </h3><h3>THE BEGINNING</h3>
+            <p> 
+             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            </p>
+             <h3>6. </h3><h3>TO BE CONTINUED...</h3><span class="colorChicoNaranja">  (See you next chapter)</span>
+   
+            
             </div>
             </div>
 
