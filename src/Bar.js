@@ -7,18 +7,19 @@ import {motion} from "framer-motion";
 import Footer from "./Footer";
 import * as Icons from "@material-ui/icons";
 
+import { useEffect, useState } from 'react';
+import Scroll from './components/SmoothScroll';
+
 function Bar () {
 
   return(
     
-      <motion.div
+ <motion.div
           initial={{opacity: 0, y: "-2%"}}
           animate={{opacity: 1, y: 0}}
           exit={{opacity: 0, y: 0}}
         className='common-container flex'>
 
-  
-      
 
         <nav className='bar-nav' >
 
@@ -50,9 +51,12 @@ function Bar () {
           </div>
 
         </nav>
-
+        
+      <body id="smooth" >
+      <Scroll/>
         <div className='banner-container' id='home'>
- 
+         
+          
           <img src={require('./assets/insideWalrusBar-min.jpg')} alt='banner'/>
 
         </div>
@@ -81,6 +85,7 @@ function Bar () {
             </p>
           </div>
         </div>
+        
         <div className='separator'/>
         <div className='flex' id='second-section'>
           
@@ -143,6 +148,7 @@ Walruses to encourage you to continue.
 
           </div>
         </div>
+       
         <div id='third-section'>
           <h1>FAQ</h1>
           <ul id='FAQ'>
@@ -203,9 +209,12 @@ Walruses to encourage you to continue.
         </div>
         <div className='separator'/>
       
-
+        
         <Footer />
+        </body>
       </motion.div>
+
+     
   )
 }
 

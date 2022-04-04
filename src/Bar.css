@@ -513,6 +513,9 @@ transform:scale(1.05);
     cursor: pointer;
 }
 
+body {
+    height: 100vh;
+}
 
 /* MEDIA QUERYS */
 
@@ -522,9 +525,6 @@ transform:scale(1.05);
     }
     .botonWalrus {
         margin-left: 30px;
-    }
-    .botonWalrus div {
-
     }
     nav ul li:last-child {
         display: inline !important;
