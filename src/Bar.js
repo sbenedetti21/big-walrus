@@ -32,10 +32,10 @@ function Bar () {
 
           <ul className='flex'>
             <li><a href='#home'>HOME</a></li>
-            <li><a href='#MoverAca'>ABOUT US</a></li>
             <li><a href='#second-section'>ROAD MAP</a></li>
             <li><a href='#images'>MINI GALLERY</a></li>
             <li><a href='#third-section'>FAQ</a></li>
+            <li><a href='#team-container'>ABOUT US</a></li>
             <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer"><f >BUY A WALRUS</f></a></div></li>
           </ul>
 
@@ -43,7 +43,7 @@ function Bar () {
               <Icons.Menu/>
             </div>
 
-          <div className='nav-buttons'>
+          <div className='nav-buttons'  >
             <NavButtons />
           </div>
 
@@ -61,7 +61,7 @@ function Bar () {
           </p>
         </div>
         <br/>
-        <div className='separator' id='MoverAca'/>
+        <div className='separator'/>
         <div className='flex' id='first-section'>
           <img src={require('./assets/gifPrincipal.gif')} alt='walrus-02' id= "picture1"/>
           <div>
@@ -85,43 +85,39 @@ function Bar () {
           <h1>ROAD MAP</h1>
 
           <div id='roadmap'>
-            <img src={require('./assets/RoadMap1.png')} alt='RoadMap1'/>
+            <img src={require('./assets/roadmap-01.png')} alt='RoadMap1'/>
             
 
             
             <div id='text'>
             <h2 id='referencias'>REFERENCES:</h2>
 
-            <h3>THE BEGINNING</h3> <span class="colorChicoNaranja">  (starting point)</span>
+            <h3>THE BEGINNING</h3> <span class="colorChicoNaranja"> <b> (starting point)</b></span>
             <p> 
-            We start owr journey in search of the lost treasure by launching . The Big Walrus NFT, with a Mint price of <b>0.3 SOL</b>
+            We start owr journey in search of the lost treasure by launching. The Big Walrus NFT, with a Mint price of <b>0.3 SOL</b>
             </p>
-            <h4>1. </h4><h3>WICKED PALM TREES</h3><span class="colorChicoNaranja">  (Drop 10 Big Golded Walruses to random holders)</span>
+            <h4>1. </h4><h3>WICKED PALM TREES</h3><br /> <span class="colorChicoNaranja"> <b> (Drop 10 Big Golded Walruses to random holders)</b></span>
             <p> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+             Once we have owr first 25 sales, we will get to the famous wicked palm trees. This place is no piece of cake, so we decided  to drop The Big Gold
+Walruses to encourage you to continue.
             </p>
-            <h4>2. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (15 Big Walruses will be given away and everyone can participate)</span>
+            <h4>2. </h4><h3>THE BEGINNING</h3><br />  <span class="colorChicoNaranja"> <b> (15 Big Walruses will be given away and everyone can participate)</b></span>
             <p> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            Since we started, we have become a strong community!  But when we get to the cave, we will see that there will be many people who will want to join us, so for them we are going to give away some Walruses to allow them to be part of the team!
             </p>
-            <h4>3. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (30 Tematic NFTs released whit a mint price: 0,6 SOL)</span>
+            <h4>3. </h4><h3>THE BEGINNING</h3> <br /> <span class="colorChicoNaranja">  <b>(30 Tematic NFTs released whit a mint price: 0,6 SOL)</b></span>
             <p> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            By reaching 75 sales, we will have gotten to the skull mountain. For this we will launch The Tematic Big Walrus (TTBW), with a Mint Price: 0.6 SOL.
             </p>
-            <h4>4. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (top-secret)</span>
+            <h4>4. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja"> <b> (top-secret)</b></span>
             <p> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            If we start to see nothing else but sand, it means that we reached the big dune. Here is where we found a gold doubloon, this doubloon will be delivered to all of The Big Walrus holders, which will serve as an entrance pass to a special place...
             </p>
-            <h4>5. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (5 Big Unique Walruses will be drop to holders, Mint Price:__?)</span>
+            <h4>5. </h4><h3>THE BEGINNING</h3><br /> <span class="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop to holders, Mint Price:__?)</b></span>
             <p> 
-             <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
-            NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
+            After a couple of days of travel we find 5 pirate walruses that drink in the tavern, you will know which ones they are?
             </p>
-             <h4>6. </h4><h3>TO BE CONTINUED...</h3><span class="colorChicoNaranja">  (See you next chapter)</span>
+             <h4>?. </h4><h3>TO BE CONTINUED...</h3><span class="colorChicoNaranja"><b>  (See you next chapter)</b></span>
    
             
             </div>
@@ -184,7 +180,7 @@ function Bar () {
             </details></li>
           </ul>
         </div>
-        <div id='fourth-section' className='flex'>
+        <div id='fourth-section' className='flex' >
           <div id='team-container'>
             <h1>THE TEAM</h1>
             <p> Made up of 4 old friends who met in college, TBW team is made up of people with a clear objective and an achievable goal.</p>

@@ -115,12 +115,18 @@ h1 {
     color: #F1F1F1;
     font-family: 'Inter', sans-serif;
     margin-right: -10px;
+      border-color: #FF562E;
+    border-width: 2px;
+    border-style:solid;
 }
 
 .bar-nav f:hover {
-    /*background: #F1F1F1;*/
-    color: #0E0D0D;
+    background: #0E0D0D;
+    color:white;
     transition: background 150ms ease-in;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
 }
 
 .bar-nav #home-a {
@@ -274,12 +280,13 @@ line-height:25px;
 #second-section #roadmap p{
     font-family: 'Roboto', sans-serif;
         margin-block-start: 5px;
+
 }
 
 
 #second-section #roadmap img {
-    width:67%;
-    margin-left: -15%;
+    width:70%;
+    margin-left: -13.5%;
 
 }
 
@@ -294,14 +301,11 @@ margin-bottom: 8px;
 
 .colorChicoNaranja{
     display:inline;
-font-size: 13px;
- color: #FF562E;
-}
+font-size: 14.63px;
+color: #da6744;
+margin-left: 5px;
 
-.colorChicoNaranja1{
- color: #FF562E;
 }
-
 
 #second-section #referencias{
         font-style: italic;
@@ -323,13 +327,13 @@ letter-spacing: 2px;
     display:inline;
     font-style: italic;
     font-size: 23px;
-
-
   }
+
 #second-section h4{
   font-size: 26px;
      display:inline;
          font-style: italic;
+            color: #d84b20;
 }
 
 
@@ -530,6 +534,15 @@ transform:scale(1.05);
     .separator {
         border: none;
     }
+    #first-section h2 {
+    text-align: center;
+    }
+
+
+    #first-section #picture1{
+        width: 60%;
+    }
+
     #first-section, #second-section, #roadmap, #fourth-section {
         flex-direction: column;
         justify-content: center;
@@ -568,6 +581,12 @@ transform:scale(1.05);
     #fourth-section div {
         width: 80% !important;
     }
+    #fourth-section ul {
+    text-align: center;
+    padding: 0;
+    }
+
+
     footer {
         justify-content: center !important;
         align-items: center !important;
