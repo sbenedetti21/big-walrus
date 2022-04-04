@@ -273,7 +273,7 @@ line-height:25px;
 
 #second-section #roadmap p{
     font-family: 'Roboto', sans-serif;
-        margin-block-start: 4px;
+        margin-block-start: 5px;
 }
 
 
@@ -316,15 +316,22 @@ letter-spacing: 2px;
 }
 
 #second-section #text{
-    margin-top: -5%;
+    margin-top: -6%;
 }
 
 #second-section h3{
     display:inline;
     font-style: italic;
     font-size: 23px;
-    padding-bottom:-15px;
+
+
   }
+#second-section h4{
+  font-size: 26px;
+     display:inline;
+         font-style: italic;
+}
+
 
 
 
@@ -516,5 +523,56 @@ transform:scale(1.05);
     }
     nav .nav-lines {
         display: inline !important;
+    }
+    #below-banner h1 {
+        font-size: clamp(50px, 1em, 80px);
+    }
+    .separator {
+        border: none;
+    }
+    #first-section, #second-section, #roadmap, #fourth-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #first-section div, #first-section img {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    #first-section{
+        margin-bottom: -40px;
+        padding-bottom: 0px;
+    }
+
+
+    #roadmap #text {
+        width: 75%;
+        margin: auto;
+    }
+    #referencias {
+        align-self: center !important;
+        text-align: center !important;
+    }
+    #images img {
+        width: 45% !important;
+    }
+    #images img:nth-child(1), #images img:nth-child(5) {
+        display: none !important;
+    }
+    #below-images {
+        width: auto !important;
+    }
+    #FAQ {
+        padding: 20px;
+    }
+    #fourth-section div {
+        width: 80% !important;
+    }
+    footer {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    footer #logos {
+        display: none !important;
     }
 }

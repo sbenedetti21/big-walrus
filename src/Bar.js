@@ -94,34 +94,34 @@ function Bar () {
 
             <h3>THE BEGINNING</h3> <span class="colorChicoNaranja">  (starting point)</span>
             <p> 
-            We start owr journey in search of the lost treasure by launching . The Big Walrus NFT, with a Mint price of 0.3 SOL
+            We start owr journey in search of the lost treasure by launching . The Big Walrus NFT, with a Mint price of <b>0.3 SOL</b>
             </p>
-            <h3 class="colorChicoNaranja1">1. </h3><h3>WICKED PALM TREES</h3>
+            <h4>1. </h4><h3>WICKED PALM TREES</h3><span class="colorChicoNaranja">  (Drop 10 Big Golded Walruses to random holders)</span>
             <p> 
              <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
             </p>
-            <h3>2. </h3><h3>THE BEGINNING</h3>
+            <h4>2. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (15 Big Walruses will be given away and everyone can participate)</span>
             <p> 
              <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
             </p>
-            <h3>3. </h3><h3>THE BEGINNING</h3>
+            <h4>3. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (30 Tematic NFTs released whit a mint price: 0,6 SOL)</span>
             <p> 
              <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
             </p>
-            <h3>4. </h3><h3>THE BEGINNING</h3>
+            <h4>4. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (top-secret)</span>
             <p> 
              <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
             </p>
-            <h3>5. </h3><h3>THE BEGINNING</h3>
+            <h4>5. </h4><h3>THE BEGINNING</h3><span class="colorChicoNaranja">  (5 Big Unique Walruses will be drop to holders, Mint Price:__?)</span>
             <p> 
              <a id= 'SoloEnNegrita'>The Big Walrus (TBW)</a> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
             NFTs are <a id= 'SoloEnNegrita'> immutable and forever </a>.
             </p>
-             <h3>6. </h3><h3>TO BE CONTINUED...</h3><span class="colorChicoNaranja">  (See you next chapter)</span>
+             <h4>6. </h4><h3>TO BE CONTINUED...</h3><span class="colorChicoNaranja">  (See you next chapter)</span>
    
             
             </div>
