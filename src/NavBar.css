@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/*-barra donde van las cosas-*/
+
+.bar-nav {
+    display:flex;
+    align-items: center; 
+    justify-content: space-between !important;
+    box-sizing: border-box;
+    position:sticky;
+    top:0;
+    background:#0E0D0D;
+    padding-block: 10px;
+    z-index: 100;
+
+}
+
+
+
+/*---------------------------*/
+/*-logo con la imagen walerus-*/
+
+#centrar-img{
+    margin-top: -2px;
+   margin-left: -7.2px;
+  display: flex;
+}
+
+/*color del fondo */
+.botonWalrus{
+    background: WHITE;
+    display: flex;
+    width: 63px;
+    height: 69px;
+    border-radius: 100%;
+    align-self: flex-start !important;
+}
+.botonWalrus:hover{
+  background: #D65E48;
+}
+.botonWalrus:hover #logo-big{
+  color: #D65E48;
+}
+.botonWalrus:hover  #walerus{
+  color: #D65E48;
+}
+
+#logo-nav img {
+     border-radius: 100%;
+    height: 73px;
+}
+
+#logo-nav div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+     margin-right: -10%;
+     margin-left: 5%;
+}
+
+#logo-nav h2 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#logo-nav #logo-big {
+    margin-left: 22%;
+    margin-bottom: -5%;
+    font-size: 17px;
+    padding-top: -1px;
+}
+#logo-nav #walerus {
+    font-size: 30px;
+
+}
+
+
+/*---------------------------*/
+
+
+.bar-nav ul {
+    list-style: none;
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between !important;
+     align-items: center; /*-centra los textos-*/
+     margin-left: -10%;
+     margin-right: -15%;
+}
+.bar-nav ul a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bar-nav f {
+    font-weight: bold;
+    background: #FF562E;
+    padding: 11px 10px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+    margin-right: -10px;
+      border-color: #FF562E;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.bar-nav f:hover {
+    background: #0E0D0D;
+    color:white;
+    transition: background 150ms ease-in;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.bar-nav #home-a {
+    color: #FF562E;
+}
+.bar-nav .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 6px;
+    margin-left: -50px;
+}

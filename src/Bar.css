@@ -514,11 +514,17 @@ transform:scale(1.05);
 }
 
 body {
-    height: 100vh;
+
+    height: 90vh;
+    overflow: auto;
 }
 
 /* MEDIA QUERYS */
+/*
+@media screen and (: 1020px) {
 
+}
+*/
 @media screen and (max-width: 1020px) {
     nav ul li, nav .nav-buttons {
         display: none !important;
@@ -601,5 +607,9 @@ body {
         display: none !important;
     }
 
-    
+    body {
+
+        height: 87vh;
+        overflow: auto;
+    }
 }

@@ -1,13 +1,15 @@
 import Scrollbar from 'smooth-scrollbar';
 import { useEffect } from 'react';
 import OverscrollPlugin from 'smooth-scrollbar/plugins/overscroll';
+import NavBar from '../NavBar';
 
   const overscrollOptions = {
     enable: true,
     effect: 'bounce',
-    damping: 0.15,
+    damping: 0.25,
     maxOverscroll: 150,
-    glowColor: '#fff',
+    glowColor: '#fff',	
+
   };
 
 //   const overscrollOptions = {
@@ -20,21 +22,24 @@ import OverscrollPlugin from 'smooth-scrollbar/plugins/overscroll';
 
   
 const options = {
-    damping : 0.07,
+    damping : 0.09,
     plugins: {
       overscroll: { ...overscrollOptions },
     },
     
   }
   
-  const Scroll = () => {
+  var Scroll = () => {
 
     useEffect(() => {
+        
+        
 
         Scrollbar.use(OverscrollPlugin);
 
-        Scrollbar.init(document.body, options);
+        Scrollbar.init(document.querySelector('#smooth'), options);
         
+
     
       
     
