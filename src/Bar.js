@@ -17,7 +17,9 @@ function Bar () {
           exit={{opacity: 0, y: 0}}
         className='common-container flex'>
 
-       
+  
+      
+
         <nav className='bar-nav' >
 
          <div className="botonWalrus" >
@@ -33,7 +35,7 @@ function Bar () {
           <ul className='flex'>
             <li><a href='#home'>HOME</a></li>
             <li><a href='#second-section'>ROAD MAP</a></li>
-            <li><a href='#images'>MINI GALLERY</a></li>
+            <li><a href='#galeria'>MINI GALLERY</a></li>
             <li><a href='#third-section'>FAQ</a></li>
             <li><a href='#team-container'>ABOUT US</a></li>
             <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer"><f >BUY A WALRUS</f></a></div></li>
@@ -123,7 +125,7 @@ Walruses to encourage you to continue.
             </div>
             </div>
 
-
+             <div id='galeria'>   
           <div className='flex' id='images'>
 
             <img class='zoom' src={require('./assets/morsas/3.png')} alt='morsa'/>
@@ -133,11 +135,12 @@ Walruses to encourage you to continue.
             <img class='zoom' src={require('./assets/morsas/9.png')} alt='morsa'/>
             <img class='zoom' src={require('./assets/morsas/5.png')} alt='morsa'/>
           </div>
+          </div>
           <div id='below-images'>
 
-            <h1>BUY A WALRUS</h1>
             <p> To get your Walrus, check out the collection on OpenSea</p>
             <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" >BUY A WALRUS ON OPENSEA</a>
+
           </div>
         </div>
         <div id='third-section'>
@@ -199,6 +202,8 @@ Walruses to encourage you to continue.
           </div>
         </div>
         <div className='separator'/>
+      
+
         <Footer />
       </motion.div>
   )

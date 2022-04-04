@@ -6,6 +6,7 @@ import Home from './Home';
 import Bar from "./Bar";
 import {AnimatePresence} from "framer-motion";
 
+
 ReactDOM.render(
     <Router>
       <AnimatePresence>
